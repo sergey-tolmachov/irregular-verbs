@@ -8,6 +8,7 @@ $(document).ready(function() {
         if(counter == 3){
             verbs.push(verb);
             counter = 0;
+            verb = [];
         }
     });
     console.log(verbs);
