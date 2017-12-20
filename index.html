@@ -4,14 +4,10 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
-	
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="style/style.css">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
 
-	<title>Minimum Bootstrap HTML Skeleton</title>
+	<title>Irregular World</title>
 
 	<!--  -->
 
@@ -21,44 +17,118 @@
 
 </head>
 
-<body>
-    <div class="bg"></div>
-    
-	<div class="cover-text-container">
-        <span class="cover-title">Irregular world</span>
-        <span class="cover-dsc">All irregular verbs in your hand. Cheers ;)</span>
-	</div>
-	
-	<div class="search-container">
-        <input type="request" class="form-request" id="#" placeholder="Become">
-        
-        <button type="submit" class="form-submit"><i class="material-icons">search</i></button>
-        
-        <div class="reply-box">
-            <span class="replyV1">Became</span>
-            <hr>
-            <span class="replyV2">Become</span>
-        </div>
-	</div>
-	
-	<div class="table-wrapper">
-       <span class="v1 verb">be<i class="material-icons">content_copy</i></span>
-       <span class="v2 verb">was/were<i class="material-icons">content_copy</i></span>
-       <span class="v3 verb">been<i class="material-icons">content_copy</i></span>
-       <span class="v1 verb">bear<i class="material-icons">content_copy</i></span>
-       <span class="v2 verb">bore<i class="material-icons">content_copy</i></span>
-       <span class="v3 verb">born/borne<i class="material-icons">content_copy</i></span>
-       <span class="v1 verb">beat<i class="material-icons">content_copy</i></span>
-       <span class="v2 verb">beat<i class="material-icons">content_copy</i></span>
-       <span class="v3 verb">beaten<i class="material-icons">content_copy</i></span>
+<body>   
+    <div class="text-container">
+        <span class="page-title">Irregular Verbs</span>
+        <span class="page-dsc">All irregular verbs in your hand. Cheers ;)</span>
     </div>
+    
+    <div class="search-container">
+        <form class="active-input">
+            <input type="text" placeholder="Enter verb...">
+        </form>
+        <div class="search-container"><img src="icn/search-icn.svg" alt=""></div>
+        <div class="result-container">
+            <div class="result1">
+                <p>Result1</p>
+                <div class="copy-icn"></div>
+            </div>
+            <div class="horizontal-divider-line"></div>
+            <div class="result2">
+                <p>Result2</p>
+                <div class="copy-icn"></div>
+            </div>
+        </div>
+    </div>
+    
+	<div class="table-container">
+    <!--Row #1-->
+        <div class="table-row">
+            <div class="table-item v1">
+                <p id="success">v1</p>
+                <div class="copy-icn"></div>
+                <div class="vertical-divider-line"></div>
+            </div>
+            
+            <div class="table-item v2">
+                <p>v2</p>
+                <div class="copy-icn"></div>
+                <div class="vertical-divider-line"></div>
+            </div>
+            <div class="table-item v3">
+                <p>v3</p>
+                <div class="copy-icn"></div>
+            </div>
+	    </div>
+	    
+        <div class="horizontal-divider-line"></div>
+        
+    <!--Row #2-->
+        <div class="table-row">
+            <div class="table-item v1">
+                <p>v1</p>
+                <div class="copy-icn"></div>
+                <div class="vertical-divider-line"></div>
+            </div>
+            
+            <div class="table-item v2">
+                <p>v2</p>
+                <div class="copy-icn"></div>
+                <div class="vertical-divider-line"></div>
+            </div>
+            <div class="table-item v3">
+                <p>v3</p>
+                <div class="copy-icn"></div>
+            </div>
+	    </div>
+	    
+        <div class="horizontal-divider-line"></div>
+        
+    <!--Row #3-->
+        <div class="table-row">
+            <div class="table-item v1">
+                <p>v1</p>
+                <div class="copy-icn"></div>
+                <div class="vertical-divider-line"></div>
+            </div>
+            
+            <div class="table-item v2">
+                <p>v2</p>
+                <div class="copy-icn"></div>
+                <div class="vertical-divider-line"></div>
+            </div>
+            <div class="table-item v3">
+                <p>v3</p>
+                <div class="copy-icn"></div>
+            </div>
+	    </div>
+	    
+        <div class="horizontal-divider-line"></div>
+        
+    <!--Row #4-->
+        <div class="table-row">
+            <div class="table-item v1">
+                <p>v1</p>
+                <div class="copy-icn"></div>
+                <div class="vertical-divider-line"></div>
+            </div>
+            
+            <div class="table-item v2">
+                <p>v2</p>
+                <div class="copy-icn"></div>
+                <div class="vertical-divider-line"></div>
+            </div>
+            <div class="table-item v3">
+                <p>v3</p>
+                <div class="copy-icn"></div>
+            </div>
+	    </div>
+	</div>
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	
-	<script src="script/script.js"></script>
 
-	<script>
-	</script>
+	<script src="js/script.js"></script>
 
 </body>
 
